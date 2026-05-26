@@ -1,0 +1,637 @@
+{
+  "tagline": "Еда получает второй оборот",
+  "nav": {
+    "home": "Главная",
+    "rescue": "Спасение",
+    "orders": "Заказы",
+    "profile": "Профиль",
+    "leaderboard": "Рейтинг",
+    "dashboard": "Панель",
+    "boxes": "Боксы",
+    "farm": "Ферма",
+    "analytics": "Аналитика",
+    "explore": "Обзор",
+    "subscriptions": "Подписки",
+    "deliveries": "Доставки",
+    "catalog": "Каталог",
+    "myUnits": "Мои установки",
+    "partners": "Партнеры",
+    "bioOrders": "Био-заказы",
+    "impact": "Влияние",
+    "signIn": "Войти",
+    "signUp": "Регистрация"
+  },
+  "impact": {
+    "wasteSaved": "Отходов сохранено",
+    "co2Saved": "CO₂ предотвращено",
+    "boxesSold": "Боксов продано"
+  },
+  "common": {
+    "buy": "Купить за {{price}} ₸",
+    "loading": "Загрузка...",
+    "noData": "Нет данных",
+    "city": "Город",
+    "almaty": "Алматы",
+    "astana": "Астана",
+    "shymkent": "Шымкент",
+    "kzt": "₸",
+    "viewAll": "Все",
+    "actionFailed": "Действие не удалось",
+    "unknownPartner": "Партнер QAYTA",
+    "other": "Другое"
+  },
+  "auth": {
+    "sideTitle": "Еда возвращается в оборот.",
+    "sideTagline": "Бережем природу вместе.",
+    "welcomeSignIn": "Войти в QAYTA",
+    "welcomeSignUp": "Регистрация в QAYTA",
+    "switchToLight": "Включить светлую тему",
+    "switchToDark": "Включить темную тему"
+  },
+  "onboarding": {
+    "title": "Добро пожаловать в QAYTA",
+    "subtitle": "Вместе восстановим устойчивые потоки продуктов",
+    "progressLabel": "Шаги настройки",
+    "stepRole": "Роль",
+    "stepInfo": "Инфо",
+    "stepConfirm": "Проверка",
+    "stepReady": "Готово",
+    "step1": "Выберите роль",
+    "step1Hint": "Укажите, как вы будете использовать платформу",
+    "step2": "Заполните профиль",
+    "step2Hint": "Введите ваши данные",
+    "step3": "Документы",
+    "step4": "Готово",
+    "consumer": "Покупатель",
+    "consumerDesc": "Спасайте еду и вносите вклад в экосистему",
+    "partner": "Ресторан / кафе",
+    "partnerDesc": "Ответственно перераспределяйте излишки еды",
+    "farmer": "Фермер",
+    "farmerDesc": "Доставляйте урожай в устойчивые каналы сбыта",
+    "bio": "Био-клиент",
+    "bioDesc": "Подключайтесь к переработке биопродукции и отходов",
+    "language": "Язык",
+    "displayName": "Имя для профиля",
+    "displayNamePlaceholder": "Например, Айгүл",
+    "businessName": "Название заведения",
+    "farmName": "Название фермы",
+    "address": "Адрес",
+    "city": "Город",
+    "russian": "Русский",
+    "kazakh": "Қазақша",
+    "documentNotice": "Загрузка документов откроется после первичной проверки профиля.",
+    "readyNotice": "Аккаунт готов. После старта вы попадете в рабочую панель.",
+    "completeError": "Не удалось завершить настройку профиля.",
+    "continue": "Продолжить",
+    "finish": "Начать"
+  },
+  "roles": {
+    "consumer": "Покупатель",
+    "partner": "Партнер",
+    "farmer": "Фермер",
+    "bio_client": "Био",
+    "admin": "Админ"
+  },
+  "shell": {
+    "circularScore": "Циркулярный счет",
+    "context": "Контекст"
+  },
+  "units": {
+    "kg": "кг",
+    "items": "шт",
+    "m3": "м³"
+  },
+  "flow": {
+    "rescue": "Rescue",
+    "farm": "Farm",
+    "bio": "Bio",
+    "impact": "Impact"
+  },
+  "status": {
+    "active": "Активен",
+    "sold_out": "Распродан",
+    "expired": "Истек",
+    "draft": "Черновик",
+    "pending": "В ожидании",
+    "paid": "Оплачен",
+    "picked_up": "Получен",
+    "cancelled": "Отменен",
+    "ready": "Готов",
+    "urgent": "Срочно",
+    "certified": "Серт.",
+    "live": "В эфире",
+    "installed": "Установлен",
+    "serviced": "Обслужен",
+    "inquiry": "Запрос",
+    "quoted": "Оценен",
+    "confirmed": "Подтвержден",
+    "paused": "Пауза",
+    "preparing": "Готовится",
+    "impact_counted": "Влияние учтено",
+    "collected": "Собран",
+    "delivered": "Доставлен"
+  },
+  "notifications": {
+    "title": "Уведомления",
+    "markAllRead": "Прочитать",
+    "empty": "Пока нет уведомлений"
+  },
+  "filters": {
+    "all": "Все",
+    "boxes": "Боксы",
+    "bakery": "Выпечка",
+    "meals": "Еда",
+    "cafe": "Кафе",
+    "veg": "Вег.",
+    "halal": "Халял",
+    "under1500": "До 1500 ₸",
+    "today": "Сегодня",
+    "near": "Рядом",
+    "allDistances": "Любое расстояние",
+    "withinKm": "До {{count}} км"
+  },
+  "days": {
+    "mon": "Пн",
+    "tue": "Вт",
+    "wed": "Ср",
+    "thu": "Чт",
+    "fri": "Пт",
+    "sat": "Сб",
+    "sun": "Вс"
+  },
+  "box": {
+    "discount": "-{{discount}}%",
+    "left": "{{count}} осталось",
+    "co2": "{{value}} кг CO₂",
+    "favorite": "Добавить в избранное",
+    "expired": "Истек",
+    "hoursLeft": "{{hours}}ч {{minutes}}м",
+    "todayAt": "Сегодня, {{time}}",
+    "distanceKm": "{{distance}} км",
+    "veg": "Вег.",
+    "halal": "Халял",
+    "reserve": "Забронировать"
+  },
+  "consumer": {
+    "home": {
+      "eyebrow": "Эко-паспорт",
+      "title": "Ваш эко-план второй жизни",
+      "subtitle": "Следите за экосистемой, заказами и рейтингом платформы QAYTA.",
+      "scan": "Rescue",
+      "topRank": "Топ 5%",
+      "nextReward": "Ещё {{points}} XP до следующей награды",
+      "next": "Далее",
+      "xp": "XP",
+      "thisWeek": "Неделя",
+      "metrics": {
+        "rescued": "Спасено еды",
+        "co2": "CO₂ предотвращено",
+        "orders": "Активные заказы",
+        "score": "Счёт города"
+      },
+      "weeklyImpact": "Недельное влияние",
+      "weeklyImpactHint": "Спасено еды за неделю в городе.",
+      "journey": "Круговой путь",
+      "journeyHint": "Вы проходите тот же путь, что и экосистема платформы.",
+      "nearby": "Боксы рядом",
+      "nearbyHint": "Свежие боксы в выбранном городе."
+    },
+    "rescue": {
+      "eyebrow": "Qayta Rescue",
+      "title": "Спасай Surprise Box рядом",
+      "subtitle": "Фильтруйте боксы по городу, категории, цене и расстоянию.",
+      "searchPlaceholder": "Поиск по названию или типу",
+      "list": "Список",
+      "map": "Карта",
+      "orders": "Заказы",
+      "emptyTitle": "Сейчас боксов нет",
+      "emptyDescription": "Попробуйте другой город, фильтр или вернитесь вечером.",
+      "notify": "Уведомить меня",
+      "reset": "Сбросить",
+      "tryEvening": "После 18:00"
+    },
+    "orders": {
+      "eyebrow": "Заказы",
+      "title": "Мои заказы",
+      "subtitle": "Все бронирования, статусы и коды получения здесь.",
+      "findBoxes": "Найти боксы",
+      "active": "Активные",
+      "rescued": "Спасено",
+      "co2": "CO₂",
+      "tabs": {
+        "active": "Активные",
+        "history": "История"
+      },
+      "emptyActiveTitle": "Активных заказов нет",
+      "emptyActiveDescription": "Забронируйте Surprise Box и код появится здесь.",
+      "emptyHistoryTitle": "История пока пуста",
+      "emptyHistoryDescription": "После получения заказа он появится в истории.",
+      "pickupCode": "Код получения",
+      "total": "Итого",
+      "quantity": "Кол-во",
+      "timeline": {
+        "paid": "Оплата",
+        "preparing": "Готовка",
+        "ready": "Готов",
+        "picked_up": "Получен",
+        "impact_counted": "Влияние"
+      }
+    },
+    "leaderboard": {
+      "eyebrow": "Рейтинг",
+      "title": "Городской лидерборд",
+      "subtitle": "Соревнуйтесь с соседями по спасенной еде и XP.",
+      "tabs": {
+        "week": "Неделя",
+        "month": "Месяц",
+        "all": "Все время"
+      },
+      "stats": {
+        "participants": "Участники",
+        "average": "Средний XP",
+        "total": "Всего XP",
+        "rank": "Ваш ранг"
+      },
+      "unranked": "Н/Д",
+      "emptyTitle": "Рейтинг ещё не готов",
+      "emptyDescription": "Скоро здесь появятся первые участники.",
+      "start": "Начать спасать",
+      "podium": "Топ 3",
+      "podiumHint": "Лидеры, герои и чемпионы этой недели.",
+      "explainTitle": "Как начисляются очки",
+      "explainDescription": "Очки зависят от спасенной еды и активности на платформе."
+    },
+    "profile": {
+      "eyebrow": "Профиль",
+      "title": "Мой QAYTA",
+      "subtitle": "Статистика, достижения, настройки и поддержка.",
+      "invite": "Пригласить друга",
+      "logout": "Выйти",
+      "stats": {
+        "rescues": "Спасений",
+        "food": "Еда",
+        "co2": "CO₂",
+        "week": "За неделю"
+      },
+      "badges": "Бейджи",
+      "earned": "Получено",
+      "locked": "Закрыто",
+      "badge": {
+        "firstRescue": {
+          "title": "Первый Rescue",
+          "description": "Первое спасенное бокс."
+        },
+        "tenKg": {
+          "title": "10 кг спасено",
+          "description": "Спасли десять килограмм еды."
+        },
+        "co2Saver": {
+          "title": "CO₂ Saver",
+          "description": "Первые килограммы CO₂ сэкономлены."
+        },
+        "cityChampion": {
+          "title": "City Champion",
+          "description": "Попали в топ города."
+        }
+      },
+      "favoritesTitle": "Избранные партнеры скоро",
+      "favoritesDescription": "Сохраняйте любимые места, чтобы быстро находить их снова.",
+      "findFavorites": "Найти партнеров",
+      "settings": "Настройки",
+      "notifications": "Уведомления",
+      "notificationsHint": "Заказы, боксы и новости рядом.",
+      "payment": "Оплата",
+      "paymentHint": "Kaspi и другие методы скоро.",
+      "support": "Поддержка",
+      "supportHint": "Помощь по заказам и аккаунту.",
+      "appearance": "Тема и язык"
+    },
+    "boxDetail": {
+      "eyebrow": "Детали бокса",
+      "ordered": "Заказ оформлен",
+      "left": "Осталось боксов",
+      "pickup": "Выдача"
+    }
+  },
+  "partner": {
+    "dashboard": {
+      "eyebrow": "Партнерская панель",
+      "title": "{{name}} сегодня",
+      "subtitle": "Выручка, боксы и очередь получения в одном месте.",
+      "addBox": "Добавить бокс",
+      "noProfileTitle": "Профиль партнера не найден",
+      "noProfileDescription": "Завершите онбординг, чтобы открыть панель.",
+      "completeProfile": "Завершить профиль",
+      "live": "Live",
+      "paused": "Пауза",
+      "heroTitle": "Превращайте излишки еды в выручку и влияние.",
+      "heroDescription": "Публикуйте боксы, управляйте очередью получения и отслеживайте экологический эффект.",
+      "forecastTitle": "AI прогноз спроса",
+      "forecastHint": "Обновлено по городу",
+      "forecastValue": "+3 бокса в 19:00",
+      "forecastDescription": "Рекомендуем добавить боксы к вечеру.",
+      "metrics": {
+        "revenue": "Выручка",
+        "sold": "Продано",
+        "active": "Активных боксов",
+        "food": "Еда спасена",
+        "co2": "CO₂"
+      },
+      "revenueChart": "Выручка по дням",
+      "pickupQueue": "Очередь выдачи",
+      "orderCode": "Заказ #{{code}}",
+      "emptyOrdersTitle": "Очередь пока пуста",
+      "emptyOrdersDescription": "Опубликуйте бокс, чтобы увидеть заказы."
+    },
+    "boxes": {
+      "eyebrow": "Управление",
+      "title": "Surprise Boxes",
+      "subtitle": "Создавайте, редактируйте и управляйте публикациями.",
+      "emptyTitle": "Пока нет Surprise Box",
+      "emptyDescription": "Создайте первый бокс прямо сейчас.",
+      "quantity": "шт",
+      "oldPrice": "Старая цена",
+      "discount": "Скидка",
+      "publish": "Опубликовать",
+      "published": "Бокс опубликован",
+      "pause": "Пауза",
+      "paused": "Бокс на паузе",
+      "edit": "Ред.",
+      "duplicate": "Копия"
+    },
+    "orders": {
+      "eyebrow": "Заказы",
+      "title": "Заказы клиентов",
+      "subtitle": "Отслеживайте коды и отмечайте выдачу боксов.",
+      "waiting": "Ожидают",
+      "completed": "Завершены",
+      "total": "Итого",
+      "emptyTitle": "Заказов нет",
+      "emptyDescription": "Новые заказы появятся после публикации боксов.",
+      "qty": "{{count}} шт",
+      "steps": {
+        "paid": "Оплачен",
+        "ready": "Готов",
+        "picked_up": "Выдан"
+      },
+      "marked": "Заказ выдан",
+      "markPickedUp": "Отметить получение"
+    },
+    "analytics": {
+      "eyebrow": "Аналитика",
+      "title": "Продажи и влияние",
+      "subtitle": "Выручка, скидки, боксы и экологический эффект.",
+      "week": "×{{count}}",
+      "metrics": {
+        "revenue": "Выручка",
+        "food": "Еда",
+        "discount": "Скидка",
+        "co2": "CO₂"
+      },
+      "wasteChart": "Динамика отходов",
+      "revenueChart": "Динамика выручки"
+    },
+    "farm": {
+      "eyebrow": "Qayta Farm",
+      "title": "Ферма для партнеров",
+      "subtitle": "Подключайте фермеров к перераспределению излишков и отходов.",
+      "offerEyebrow": "Подписка",
+      "offerTitle": "Подключите Qayta Farm для устойчивых поставок.",
+      "offerDescription": "Список фермеров обновляется по вашему городу, а отходы идут в корма.",
+      "perMonth": "в месяц",
+      "subscribed": "Qayta Farm подключен",
+      "subscribe": "Подключить Qayta Farm",
+      "metrics": {
+        "status": "Статус",
+        "farmers": "Фермеры",
+        "weight": "Объем"
+      },
+      "listingActive": "Листинг активен",
+      "emptyTitle": "Поставок пока нет",
+      "emptyDescription": "Добавьте подписку, чтобы увидеть поставки."
+    },
+    "newBox": {
+      "eyebrow": "Новая публикация",
+      "title": "Создать Surprise Box",
+      "subtitle": "Заполните описание бокса для покупателей рядом.",
+      "titleRu": "Название RU",
+      "titleKk": "Название KK",
+      "description": "Описание",
+      "originalPrice": "Старая цена",
+      "discountPrice": "Цена со скидкой",
+      "quantity": "Количество",
+      "pickup": "Время получения",
+      "publish": "Опубликовать",
+      "published": "Бокс опубликован",
+      "preview": "Предпросмотр",
+      "previewTitle": "Пример бокса",
+      "previewDescription": "Так покупатели увидят карточку."
+    }
+  },
+  "farmer": {
+    "dashboard": {
+      "eyebrow": "Qayta Farm",
+      "title": "Фермерская панель",
+      "subtitle": "Корма, маршруты и сертификация для партнеров.",
+      "findFeed": "Найти корм",
+      "heroEyebrow": "Новый спрос",
+      "heroTitle": "Перераспределяйте излишки урожая в корма для скота.",
+      "heroDescription": "Подписывайтесь на партнерские рестораны, планируйте вывоз и получайте сертификаты.",
+      "metrics": {
+        "feed": "Поставлено корма",
+        "pickups": "Завершено вывозов",
+        "savings": "Экономия",
+        "certified": "Серт."
+      },
+      "feedChart": "График поставок корма",
+      "activeRoutes": "Активные маршруты",
+      "emptyTitle": "Маршрутов пока нет",
+      "emptyDescription": "Подключите подписку на партнерские рестораны."
+    },
+    "explore": {
+      "eyebrow": "Поиск корма",
+      "title": "Доступные партнеры",
+      "subtitle": "Фильтруйте по типу отходов, сертификации и городу.",
+      "emptyTitle": "Партнеры не найдены",
+      "emptyDescription": "Измените фильтры или попробуйте другой город.",
+      "certified": "Сертифиц.",
+      "quantity": "Объем",
+      "days": "Дни",
+      "subscribed": "Подписка активна",
+      "request": "Запросить доступ"
+    },
+    "filters": {
+      "all": "Все",
+      "certified": "Серт.",
+      "produce": "Овощи",
+      "bread": "Хлеб",
+      "mixed": "Смесь"
+    },
+    "waste": {
+      "bread": "Хлеб",
+      "dairy": "Молочка",
+      "meat": "Мясо",
+      "produce": "Овощи",
+      "mixed": "Смесь"
+    },
+    "subscriptions": {
+      "eyebrow": "Подписки",
+      "title": "Активные подписки",
+      "subtitle": "Планы, биллинг и отмена по партнерам.",
+      "emptyTitle": "Подписок нет",
+      "emptyDescription": "Подключите первую партнерскую подписку.",
+      "feed": "Корм",
+      "billing": "Биллинг",
+      "plan": "План",
+      "cancelled": "Подписка отменена",
+      "cancel": "Отменить"
+    },
+    "plans": {
+      "monthly": "Месяц",
+      "quarterly": "Квартал"
+    },
+    "deliveries": {
+      "eyebrow": "Вывоз",
+      "title": "График вывозов",
+      "subtitle": "Отслеживайте подтвержденные маршруты и сертификацию.",
+      "emptyTitle": "Вывозы не запланированы",
+      "emptyDescription": "Подтвердите подписку, чтобы увидеть маршруты.",
+      "nextPickup": "Следующий вывоз: {{date}}",
+      "steps": {
+        "pending": "Ожид.",
+        "confirmed": "Подтв.",
+        "collected": "Собран",
+        "delivered": "Достав.",
+        "certified": "Серт."
+      }
+    }
+  },
+  "bio": {
+    "categories": {
+      "all": "Все",
+      "compact": "Компакт",
+      "industrial": "Пром.",
+      "accessory": "Аксессуары"
+    },
+    "catalog": {
+      "eyebrow": "Qayta Bio",
+      "title": "Био-оборудование",
+      "subtitle": "Компост, биогаз и переработка для устойчивых предприятий.",
+      "heroEyebrow": "Комpost + biogas",
+      "heroTitle": "Перерабатывайте органику в компост и энергию в городе.",
+      "heroDescription": "Подберите оборудование, рассчитайте мощность и получите консультацию по установке.",
+      "metrics": {
+        "volume": "Объем",
+        "biogas": "Биогаз",
+        "compost": "Компост",
+        "units": "Установки"
+      },
+      "emptyTitle": "Нет оборудования",
+      "emptyDescription": "Скоро появятся новые позиции.",
+      "capacity": "Мощность/день",
+      "estimate": "Оценка цены",
+      "consult": "Консультация"
+    },
+    "units": {
+      "eyebrow": "Установки",
+      "title": "Мои био-узлы",
+      "subtitle": "Статус, обслуживание, выход и очередь.",
+      "request": "Запросить узел",
+      "metrics": {
+        "active": "Активные",
+        "capacity": "Мощность",
+        "service": "Сервис",
+        "quality": "Качество"
+      },
+      "grade": "A",
+      "outputChart": "Выход",
+      "compost": "Компост",
+      "biogas": "Биогаз",
+      "queue": "Очередь",
+      "emptyTitle": "Узлов пока нет",
+      "emptyDescription": "Оформите заявку на установку.",
+      "qty": "{{count}} шт",
+      "serviceDate": "Сервис: {{date}}"
+    },
+    "product": {
+      "eyebrow": "Оборудование",
+      "quoteTitle": "Запросить цену",
+      "quantity": "Количество",
+      "address": "Адрес установки",
+      "submit": "Отправить заявку",
+      "submitted": "Заявка отправлена"
+    }
+  },
+  "admin": {
+    "dashboard": {
+      "eyebrow": "Административная панель",
+      "title": "Центральный мониторинг QAYTA",
+      "subtitle": "Партнеры, фермеры и био-заказы в одном месте.",
+      "metrics": {
+        "partners": "Партнеры",
+        "farmers": "Фермеры",
+        "bio": "Био-клиенты",
+        "pending": "Ожидают",
+        "rescued": "Спасено"
+      },
+      "growthChart": "Рост платформы",
+      "circularFlow": "Поток Rescue → Farm → Bio",
+      "queue": {
+        "partners": "Партнеры",
+        "partnersHint": "Верификация и новые заявки.",
+        "bio": "Био-заказы",
+        "bioHint": "Заявки, консультации и сервис.",
+        "health": "Состояние системы",
+        "healthHint": "Очереди задач и алерты."
+      }
+    },
+    "impact": {
+      "eyebrow": "Impact",
+      "title": "Экологическое влияние",
+      "subtitle": "Rescue, Farm и Bio в одном отчете.",
+      "totalRescued": "Всего спасено",
+      "co2": "CO₂",
+      "partners": "Партнеры",
+      "farmers": "Фермеры",
+      "cityMap": "Карта городов",
+      "cityHint": "Сравнение городов-пилотов",
+      "flowTitle": "Циркулярный поток"
+    },
+    "partners": {
+      "eyebrow": "Модерация",
+      "title": "Партнеры",
+      "subtitle": "Верификация, статусы и управление доступом.",
+      "filters": {
+        "all": "Все",
+        "verified": "Проверены",
+        "pending": "Ожидают",
+        "active": "Активны",
+        "paused": "Пауза"
+      },
+      "emptyTitle": "Партнеров нет",
+      "emptyDescription": "Новые заявки появятся здесь.",
+      "rating": "Рейтинг",
+      "verified": "Проверен",
+      "pending": "Ожидает",
+      "active": "Активен",
+      "paused": "Пауза",
+      "verifiedToast": "Партнер проверен",
+      "suspendedToast": "Партнер приостановлен",
+      "verify": "Проверить",
+      "suspend": "Приостановить"
+    },
+    "bioOrders": {
+      "eyebrow": "Модерация Bio",
+      "title": "Био-заказы",
+      "subtitle": "{{count}} заявок в очереди",
+      "emptyTitle": "Био-заказов нет",
+      "emptyDescription": "Новые заявки появятся после публикации каталога.",
+      "statusUpdated": "Статус обновлен",
+      "noItems": "Пусто"
+    }
+  },
+  "notFound": {
+    "description": "Страница не найдена.",
+    "home": "На главную"
+  }
+}

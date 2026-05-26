@@ -1,36 +1,83 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# QAYTA
 
-## Getting Started
+Kazakhstan's circular-economy food-waste platform — **React + Vite + Convex + Clerk**.
 
-First, run the development server:
+## Stack
+
+- **Frontend:** React 18, Vite, TypeScript (strict), React Router v6
+- **Backend:** Convex (realtime DB, functions, crons, webhooks)
+- **Auth:** Clerk (`@clerk/clerk-react`)
+- **i18n:** react-i18next (RU / KK)
+- **Maps:** Mapbox GL JS (lazy loaded)
+- **Charts:** Chart.js (partner analytics)
+
+## Quick start
 
 ```bash
+# 1. Install dependencies
+npm install
+
+# 2. Copy env template
+cp .env.example .env.local
+
+# 3. Terminal A — Convex backend
+npx convex dev
+
+# 4. Terminal B — Vite frontend
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+
+# 5. (Optional) Seed demo data
+npm run convex:seed
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Environment variables
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Frontend (`.env.local`)
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+| Variable | Description |
+|----------|-------------|
+| `VITE_CONVEX_URL` | From `npx convex dev` output |
+| `VITE_CLERK_PUBLISHABLE_KEY` | Clerk dashboard |
+| `VITE_MAPBOX_TOKEN` | Mapbox public token |
 
-## Learn More
+### Convex (`npx convex env set`)
 
-To learn more about Next.js, take a look at the following resources:
+- `CLERK_JWT_ISSUER_DOMAIN`, `CLERK_SECRET_KEY`, `CLERK_WEBHOOK_SECRET`
+- `STRIPE_SECRET_KEY`, `STRIPE_WEBHOOK_SECRET`, `STRIPE_PRICE_FARM_*`
+- `KASPI_*`, `RESEND_API_KEY`, `RESEND_FROM`
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Routes
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+| Role | Paths |
+|------|-------|
+| Consumer | `/`, `/rescue`, `/rescue/:boxId`, `/orders`, `/profile`, `/leaderboard` |
+| Partner | `/partner/dashboard`, `/partner/boxes`, `/partner/boxes/new`, … |
+| Farmer | `/farmer/dashboard`, `/farmer/explore`, … |
+| Bio | `/bio`, `/bio/:productId`, `/bio/my-units` |
+| Admin | `/admin`, `/admin/partners`, … |
+| Auth | `/auth/sign-in`, `/auth/sign-up`, `/auth/onboarding` |
 
-## Deploy on Vercel
+## Project structure
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+```
+convex/          Backend schema, queries, mutations, crons, seeds
+src/
+  layouts/       Role-based layouts (Consumer, Partner, …)
+  pages/         Pages by role
+  components/    Shared UI (SurpriseBoxCard, ImpactTicker, …)
+  lib/           Convex client, role guards
+  i18n/          RU/KK translations
+index.html
+vite.config.ts
+docker-compose.yml   Redis Stack (local dev)
+```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Design system
+
+CSS variables in `src/index.css` — earth/clay/cream palette, DM Serif Display + IBM Plex Sans/Mono. No gradients, shadows, or glass effects.
+
+## Notes
+
+- Run `npx convex dev` once to regenerate `convex/_generated/` with full types (stub exists for offline TS).
+- Partner/farmer accounts require admin verification before publishing boxes.
+- Kaspi Pay and Stripe webhook handlers in `convex/http.ts` are scaffolded; wire credentials for production.
